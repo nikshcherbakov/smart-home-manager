@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+      //  versionCode Integer.parseInt(project.VERSION_CODE)
+      //  versionName project.VERSION_NAME
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+// Used to push in maven
+//apply from: '../maven_push.gradle'

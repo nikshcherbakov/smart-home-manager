@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartHomeManager</string>
+    <string name="Command">Command</string>
+    <string name="Complete">Complete</string>
+    <string name="Error">Error</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Temperature">Temperature</string>
+</resources>
