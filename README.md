@@ -1,6 +1,6 @@
 # Smart Home Manager
 
-***Smart Home Manager*** is a project that can help you to receive the information about humidity and temperature in the room within your home wifi network. It is also possible to use Google Voice Api to a partucilar task with your smart home (for now it is only possible to turn a led on, but any other home device could be fit in instead).
+***Smart Home Manager*** is a project that can help you to receive the information about humidity and temperature in the room within your home wifi network. It is also possible to use Google Voice Api to a particular task with your smart home (for now it is only possible to turn a led on, but any other home device could be fit in instead).
 
 
 <p align="center">
@@ -8,8 +8,8 @@
 </p>
 
 
-The application is devided into two parts:
-1. The software part (whitten in Java)
+The application is divided into two parts:
+1. The software part (written in Java)
 2. The hardware part (Arduino + NodeMCU)
 
 ## Software part
@@ -21,7 +21,7 @@ The software is written in Android Studio. I implemented simple user interface w
 </p>
 
 
-If the command is equaled to the one in the memory, the correspondong action gets done and the button turns green (with "Complete" label on it). If there's not such command, then the button's collor changes to red and "Error" labels appears on it.
+If the command is equal to the one in the memory, the corresponding action is performed, and the button turns green (with "Complete" label on it). If there's no such a command, then the button's color changes to red and "Error" label appears on it.
 
 <p align="center">
   <img width="190" alt="interface" src="https://user-images.githubusercontent.com/74429654/130459165-9990ff33-112a-4f40-bac5-99bf62b39b4b.png">
